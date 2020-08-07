@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ThrowDemo",
+            "request": "launch",
+            "mainClass": "RestaurantManagement.ThrowDemo",
+            "projectName": "Restaurant Management"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RestaurantManagement",
+            "request": "launch",
+            "mainClass": "RestaurantManagement.RestaurantManagement",
+            "projectName": "Restaurant Management"
+        }
+    ]
+}
