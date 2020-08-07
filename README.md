@@ -5,14 +5,14 @@
 
 | **Object** | **State** | **Behavior** |
 | --- | --- | --- |
-| **Waiter** | TableNo.ItemNoItemNameQuantityAvailabilityOrderStatusFeedback | SearchItem() <br/> ConfirmOrder() <br/> SetOrderStatus() <br/> AddToBill() <br/> GetFeedback() |
-| **Customer** | ReservationIDNameTableNo.NumberOfGuestsOrderItemsBill | SearchItem() <br/> OrderItem() <br/> PlaceBill() |
-| **Menu** | CuisineTypeNameRecipePrice | GetAvailability()|
-| **Kitchen** | ResourceTypeResourceLevelAvailavilityCurrentStatus | SetAvailability() <br/> SetCurrentStatus()|
-| **Restaurant** | StatusTableNo,BillAmountOverallFeedback | SetStatus() <br/> CalcBill() <br/> SendBill() <br/> SetFeedback() |
+| **Waiter** | TableNo.ItemNo<br/>Item Name<br/>Quantity<br/>Availability<br/>Order Status<br/>Feedback | SearchItem() <br/> ConfirmOrder() <br/> SetOrderStatus() <br/> AddToBill() <br/> GetFeedback() |
+| **Customer** | Reservation ID<br/>Name<br/>TableNo.NumberOfGuests<br/>OrderItems<br/>Bill | SearchItem() <br/> OrderItem() <br/> PlaceBill() |
+| **Menu** | Cuisine<br/>Type<br/>Name<br/>Recipe<br/>Price | GetAvailability()|
+| **Kitchen** | ResourceType<br/>ResourceLevelAvailavility<br/>CurrentStatus | SetAvailability() <br/> SetCurrentStatus()|
+| **Restaurant** | Status<br/>Table No<br/>BillAmount<br/>Overall Feedback | SetStatus() <br/> CalcBill() <br/> SendBill() <br/> SetFeedback() |
 | **Table** | TableNo.NoOfSeatsStatus | SetStatus() <br/> AssignTable() <br/> ChangeNOS() |
-| **Reservation** | ReservationIDNoOfGuestsName | Read() |
-| **Feedback** | NameFeedbackEmailIDBirthAnniversaryPhoneNumber | Read() <br/> UploadFeedback() |
+| **Reservation** | ReservationID<br/>NoOfGuestsName | Read() |
+| **Feedback** | Name<br/>Feedback<br/>Email-ID<br/>Birth Anniversary<br/>Phone Number | Read() <br/> UploadFeedback() |
 
 #
 ## Object Interaction
